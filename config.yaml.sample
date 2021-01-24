@@ -1,7 +1,11 @@
 mqtt_host:      iot.eclipse.org
 mqtt_port:      1883
+mqtt_client_id: mqtt_door_checker
 mqtt_use_auth:  false
 mqtt_username:  username
 mqtt_password:  password
 subscribe_topic: topic_twelite_pal
-publish_topic: topic_door
+publish_topic: topic/door
+battery_low_timeout: 900
+battery_check_interval: 60
+

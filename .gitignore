@@ -1,6 +1,7 @@
 *~
 *.swp
 .DS_Store
-log.txt
+log*.txt*
 config.yaml
+config*.yaml
 

@@ -18,7 +18,7 @@
 ;     http://supervisord.org/
 ;
 [program:mqtt_door_checker]
-command                 = /usr/bin/ruby ./mqtt_door_checker.rb
+command                 = /usr/bin/ruby ./mqtt_door_checker.rb config.yaml
 directory               = /home/pi/work/mqtt_door_checker/
 user                    = pi
 numprocs                = 1
